@@ -35,10 +35,10 @@
         <jakarta.json-api.version>2.1.1</jakarta.json-api.version>
     </properties>
     <modules>
-<!--        <module>command-handler</module>-->
-<!--        <module>eventstore-postgresql-core</module>-->
-<!--        <module>event-handler</module>-->
-<!--        <module>query-handler</module>-->
+        <module>event-store-core</module>
+        <module>booking-order-command-handler</module>
+        <module>booking-order-event-handler</module>
+        <module>booking-order-query-handler</module>
     </modules>
     <dependencyManagement>
         <dependencies>
